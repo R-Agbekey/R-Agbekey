@@ -1,4 +1,4 @@
-### Hi there 👋
+###  This is an assignment to demonstrate html css skills.
 
 <!--
 **R-Agbekey/R-Agbekey** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
