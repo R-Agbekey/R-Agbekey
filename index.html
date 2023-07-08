@@ -12,13 +12,19 @@
 <body>
   <main class="container">
     <header>
-      <img src="assets/logo.svg" alt="" class="logo">
+      <div class="logo">
+        <img src="assets/logo.svg" alt="" class="logo">
+      </div>
+
       <button class="btn header-btn">Request Beta Access </button>
     </header>
     <section class="hero">
       <div class="left">
-        <img src="assets/pattern-curved-line-1.svg" alt="curved-line" class="hero-curve">
-        <h1>A <strong>super solution</strong> for your <strong>business.</strong></h1>
+        <div class="text-contain">
+          <img src="assets/pattern-curved-line-1.svg" alt="curved-line" class="hero-curve">
+          <h1>A <strong>super solution</strong> for your <strong>business.</strong></h1>
+        </div>
+
         <p>Our marketing and sales automations help you scale your outreach to
           get more leads for your company.</p>
 
@@ -45,10 +51,11 @@
 
 
     <section class="info">
-      <div class="jeremy-img">
-        <img src="assets/pattern-curved-line-2.svg" class="curve-second" />
-        <img src="assets/image-jeremy-large.png" alt="">
-      </div>
+      <!-- <div class="jeremy-img"> -->
+
+      <img src="assets/image-jeremy-large.png" class="person" alt="">
+      <img src="assets/pattern-curved-line-2.svg" class="curve-second" />
+      <!-- </div> -->
       <div class="works">
         <p class="heading"> It just <strong>works.</strong></p>
         <p class="para">“I really like how it is an all-in-one solution that handle many of
@@ -68,7 +75,7 @@
       <img src="assets/logo.svg" alt="">
       <div class="copyright">Copyright - Suite</div>
       <div class="socials">
-        <img src="assets/icon-facebook.svg" alt="">
+        <img id="facebook-icon" src="assets/icon-facebook.svg" alt="">
         <img src="assets/icon-twitter.svg" alt="">
         <img src="assets/icon-instagram.svg" alt="">
       </div>
