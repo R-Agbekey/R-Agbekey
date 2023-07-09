@@ -138,6 +138,7 @@ header .logo {
     text-transform: uppercase;
     color: var(--smallTextColor);
     padding-top: 10px;
+    letter-spacing: 2.5px;
 }
 
 .info {
@@ -227,6 +228,7 @@ footer {
 .footer-info {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
